@@ -1,0 +1,27 @@
+.transactionHistory {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tableHeader .tableRow {
+  background-color: #95a5a6;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.tableRow {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+
+.col {
+  min-width: 150px;
+  width: 33%;
+  border-radius: 3px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+}
